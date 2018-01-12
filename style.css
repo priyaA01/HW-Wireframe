@@ -8,7 +8,6 @@ body{
 	font-family:'Arial',  sans-serif;
 	font-size: 18px;
 }
-
 header{
 	padding:10px;
 	background-color:#ebebeb;
@@ -18,31 +17,49 @@ nav{
 	padding:10px;
 	background-color:#ebebeb;
 	margin-bottom: 10px;
-
 }
+
 section{
+	position:relative;
 	background-color:#ebebeb;
 	float:left;
-	width:490px;
-	margin-right:10px,10px;
+	width:510px;
+	margin-right:10px;
+	margin-bottom: 10px;
+	height:200px;
 }
 article{
+	position:absolute;
 	background-color:#777;
-	float:left;
-	width:470px;
-	margin:10px;
-	
+	width:400px;	
+	left:25px;
+	bottom:5px;
+	height:125px;
+}
+h2{
+	position:absolute;
+	background-color:#ebebeb;
+	width:330px;
+	bottom:25px;
+	left:30px;
+}
+#p01{
+	position:absolute;
+	background-color:#ebebeb;
+	width:330px;
+	bottom:0;
+	left:30px;
 }
 aside{
 	background-color:#ebebeb;
 	float:right;
-	width:455px;
+	width:405px;
 	height:200px;
+	margin-bottom: 10px
 }
 footer{
-
 	padding:10px;
 	background-color:#ebebeb;
 	clear:both;
-	
+	margin-top:10px;
 }
